@@ -22,7 +22,7 @@ body {
     left: 0;
     width: 100%;
     min-height: 700px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 #home-section .home-inner {
@@ -33,7 +33,7 @@ body {
     opacity: 0.8;
 }
 
-#home-section .fas {
+#home-section .fas, #create-section .fas {
     color: #008ed6;
     background: #fff;
     padding: 5px;
@@ -43,5 +43,7 @@ body {
 
 #explore-section .fas, #share-section .fas {
     background: #333;
-    columns: ;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px
 }
